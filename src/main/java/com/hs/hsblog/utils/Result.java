@@ -67,7 +67,13 @@ public class Result {
     }
 
 
+    /**
+     * 返回的data类，间接实现了Serializable接口
+     */
     public class ResultData extends HashMap{
+
+        private static final long serialVersionUID = 1L;
+
         private ResultData(){
         }
 

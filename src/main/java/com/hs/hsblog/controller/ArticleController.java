@@ -25,7 +25,7 @@ public class ArticleController {
     ArticleService articleService;
     @RequestMapping("editArticle")
     public String editArticle(){
-        return "editorArticle";
+        return "editor";
     }
 
     @RequestMapping("/saveArticle")
